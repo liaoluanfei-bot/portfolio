@@ -1,10 +1,12 @@
 
-<!DOCTYPE html><html lang="en"><head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>LUANFEI LIAO | Senior UI &amp; Product Designer</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUANFEI LIAO | Senior UI & Product Designer</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;900&amp;family=Playfair+Display:ital,wght@0,700;1,700&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
     <style>
         :root {
             --lavender-light: #f8f7ff;
@@ -188,13 +190,13 @@
             margin-bottom: 0.5rem;
         }
     </style>
-<script src="https://www.kimi.com/sdk-seed.js" defer=""></script></head>
+</head>
 <body class="bg-gradient-soft">
 
     <div class="fluid-glow w-[800px] h-[800px] bg-indigo-100 -top-40 -right-20"></div>
 
     <!-- Navigation -->
-    <nav class="fixed top-0 w-full z-50 px-6 md:px-16 py-6 md:py-8 flex justify-between items-center bg-white/10 backdrop-blur-md md:bg-transparent">
+    <nav class="fixed top-0 w-full z-50 px-8 md:px-16 py-6 md:py-8 flex justify-between items-center bg-white/10 backdrop-blur-md md:bg-transparent">
         <div class="text-xl md:text-2xl font-black tracking-tighter text-indigo-900">L.LIAO</div>
         <div class="hidden md:flex space-x-12 text-[10px] font-black uppercase tracking-[0.3em] text-slate-500">
             <a href="#work" class="hover:text-indigo-600 transition">Works</a>
@@ -204,199 +206,222 @@
     </nav>
 
     <!-- Hero -->
-    <section class="min-h-screen flex items-center px-6 md:px-20 lg:px-32 pt-32 md:pt-20 overflow-hidden">
+    <section class="min-h-screen flex items-start px-8 md:px-20 lg:px-32 pt-40 md:pt-48 pb-20 overflow-hidden">
         <div class="container mx-auto">
-            <div class="grid grid-cols-1 lg:grid-cols-12 items-center gap-16">
+            <!-- 第一行：名字和头像并排 -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 items-start gap-8 lg:gap-16 mb-12">
                 <div class="lg:col-span-7 animate-up">
                     <div class="relative">
-                        <div class="huge-watermark">2010<br/>2025</div>
-                        <div class="mb-12">
-                            <span class="role-badge">Senior UI &amp; Product Designer</span>
+                        <div class="huge-watermark">2010<br>2025</div>
+                        <div class="mb-6">
+                            <span class="role-badge">Senior UI & Product Designer</span>
                             <h1 class="text-[5.5rem] md:text-[8rem] xl:text-[10rem] font-black leading-[0.8] tracking-tighter text-slate-900">
-                                LUANFEI<br/>
+                                LUANFEI<br>
                                 <span class="serif italic font-light text-indigo-500 ml-[-0.05em]">Liao.</span>
                             </h1>
                         </div>
-                        <p class="text-slate-500 text-lg md:text-xl max-w-xl mb-12 leading-relaxed">
-                            With over 14 years of design experience, focusing on building scalable, user-centric digital experiences.
-                        </p>
-                        <div class="flex items-center gap-6">
-                            <a href="#work" class="group flex items-center gap-5 text-[10px] md:text-xs font-black uppercase tracking-[0.2em] text-slate-900">
-                                <span class="w-14 h-14 md:w-20 md:h-20 rounded-full border border-indigo-200 flex items-center justify-center group-hover:bg-indigo-600 group-hover:text-white transition-all duration-500 shadow-xl">
-                                    <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"></path></svg>
-                                </span>
-                                <span>Explore Selected Works</span>
-                            </a>
-                        </div>
                     </div>
                 </div>
-                <div class="lg:col-span-5 animate-up" style="animation-delay: 0.3s;">
-                    <div class="profile-shape aspect-[4/5] w-full bg-slate-200 relative">
-                        <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&amp;w=1000&amp;auto=format&amp;fit=crop" alt="Luanfei Liao" class="w-full h-full object-cover"/>
+                <div class="lg:col-span-5 animate-up flex justify-center lg:justify-end" style="animation-delay: 0.3s;">
+                    <div class="profile-shape aspect-[4/5] w-full max-w-[320px] lg:max-w-[400px] bg-slate-200 relative">
+                        <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=1000&auto=format&fit=crop" alt="Luanfei Liao" class="w-full h-full object-cover">
                     </div>
+                </div>
+            </div>
+
+            <!-- 第二行：长文案 -->
+            <div class="max-w-4xl mb-12 animate-up" style="animation-delay: 0.2s;">
+                <div class="text-slate-600 text-base md:text-lg leading-relaxed space-y-4">
+                    <p>Senior UI / Product Designer with <strong class="text-slate-900">14+ years of experience</strong> in mobile and platform design, including large-scale consumer products at <strong class="text-slate-900">Baidu</strong> and <strong class="text-slate-900">LeEco</strong>.</p>
+                    <p>Specialized in <strong class="text-slate-900">design systems</strong>, <strong class="text-slate-900">AI-driven products</strong>, <strong class="text-slate-900">growth-oriented UI</strong>, and cross-functional collaboration with PMs and engineers.</p>
+                    <p>Strong visual foundation with a product mindset, experienced in end-to-end design from concept to delivery, and passionate about building scalable, user-centered experiences.</p>
+                </div>
+            </div>
+
+            <!-- 第三行：个人信息和CTA -->
+            <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8 animate-up" style="animation-delay: 0.4s;">
+                <!-- Personal Info -->
+                <div class="space-y-3 text-sm text-slate-600">
+                    <div class="flex items-center gap-3">
+                        <div class="w-8 h-8 rounded-full bg-slate-900 flex items-center justify-center flex-shrink-0">
+                            <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path></svg>
+                        </div>
+                        <span>Bachelor's Degree in Visual Communication Design, Beijing Institute of Fashion Technology</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div class="w-8 h-8 rounded-full bg-slate-900 flex items-center justify-center flex-shrink-0">
+                            <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+                        </div>
+                        <span>+1 (626) 556-3419</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div class="w-8 h-8 rounded-full bg-slate-900 flex items-center justify-center flex-shrink-0">
+                            <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                        </div>
+                        <span>liaoluanfei@gmail.com</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div class="w-8 h-8 rounded-full bg-slate-900 flex items-center justify-center flex-shrink-0">
+                            <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                        </div>
+                        <span>California, USA</span>
+                    </div>
+                </div>
+
+                <!-- CTA -->
+                <div class="flex items-center gap-6">
+                    <a href="#work" class="group flex items-center gap-5 text-[10px] md:text-xs font-black uppercase tracking-[0.2em] text-slate-900">
+                        <span class="w-14 h-14 md:w-20 md:h-20 rounded-full border border-indigo-200 flex items-center justify-center group-hover:bg-indigo-600 group-hover:text-white transition-all duration-500 shadow-xl">
+                            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"></path></svg>
+                        </span>
+                        <span>Explore Selected Works</span>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Work Gallery -->
-    <section id="work" class="py-24 md:py-32 px-6 md:px-32 relative bg-white/40 md:rounded-[5rem]">
+    <section id="work" class="py-16 md:py-24 px-8 md:px-32 relative bg-white/40 md:rounded-[5rem]">
         <div class="container mx-auto">
-            <div class="mb-16 md:mb-28 animate-up">
+            <div class="mb-10 md:mb-16 animate-up">
                 <span class="section-label">Portfolio</span>
                 <h2 class="section-heading">Selected Impact.</h2>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-20 md:gap-32">
-                <!-- Card 1: Baidu -->
-                <div class="group cursor-pointer animate-up" onclick="openProject(&#39;baidu_ai&#39;)">
-                    <div class="project-img-wrapper glass-card overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"/>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
+                <!-- Card 1 -->
+                <div class="group cursor-pointer animate-up" onclick="openProject('project1')">
+                    <div class="project-img-wrapper glass-card overflow-hidden" style="margin-bottom: 1rem;">
+                        <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                     </div>
                     <div>
-                        <span class="section-label !text-[10px] mb-2">AI &amp; Productivity</span>
+                        <span class="section-label !text-[10px] mb-2">AI & Productivity</span>
                         <h4 class="text-3xl font-black mb-3 group-hover:text-indigo-600 transition">Baidu App - AI Publisher</h4>
                         <p class="text-slate-500 text-sm">Independently responsible for UI design and UX innovation.</p>
                     </div>
                 </div>
 
-                <!-- Card 2: Yinci -->
-                <div class="group cursor-pointer animate-up" onclick="openProject(&#39;yinci&#39;)">
-                    <div class="project-img-wrapper glass-card overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1493225255756-d9584f8606e9?w=1200" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"/>
+                <!-- Card 2 -->
+                <div class="group cursor-pointer animate-up" onclick="openProject('project2')">
+                    <div class="project-img-wrapper glass-card overflow-hidden" style="margin-bottom: 1rem;">
+                        <img src="https://images.unsplash.com/photo-1493225255756-d9584f8606e9?w=1200" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                     </div>
                     <div>
-                        <span class="section-label !text-[10px] mb-2">Gen Z Community</span>
-                        <h4 class="text-3xl font-black mb-3 group-hover:text-indigo-600 transition">Yinci — AI Rap Community</h4>
-                        <p class="text-slate-500 text-sm">Established community identity using &#34;Electro-Magnetic&#34; language.</p>
+                        <span class="section-label !text-[10px] mb-2">AI & Productivity</span>
+                        <h4 class="text-3xl font-black mb-3 group-hover:text-indigo-600 transition">Baidu App - AI Publisher</h4>
+                        <p class="text-slate-500 text-sm">Independently responsible for UI design and UX innovation.</p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="group cursor-pointer animate-up" onclick="openProject('project3')">
+                    <div class="project-img-wrapper glass-card overflow-hidden" style="margin-bottom: 1rem;">
+                        <img src="https://images.unsplash.com/photo-1514525253361-bee8718a34a1?w=1200" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    </div>
+                    <div>
+                        <span class="section-label !text-[10px] mb-2">AI & Productivity</span>
+                        <h4 class="text-3xl font-black mb-3 group-hover:text-indigo-600 transition">Baidu App - AI Publisher</h4>
+                        <p class="text-slate-500 text-sm">Independently responsible for UI design and UX innovation.</p>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="group cursor-pointer animate-up" onclick="openProject('project4')">
+                    <div class="project-img-wrapper glass-card overflow-hidden" style="margin-bottom: 1rem;">
+                        <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    </div>
+                    <div>
+                        <span class="section-label !text-[10px] mb-2">AI & Productivity</span>
+                        <h4 class="text-3xl font-black mb-3 group-hover:text-indigo-600 transition">Baidu App - AI Publisher</h4>
+                        <p class="text-slate-500 text-sm">Independently responsible for UI design and UX innovation.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-        <!-- Experience Section (Horizontal Timeline) -->
-    <section id="experience" class="py-24 md:py-32 px-6 md:px-12 lg:px-20 bg-slate-50/50 overflow-hidden">
+            <!-- Experience Section (Vertical Timeline) -->
+    <section id="experience" class="py-16 md:py-24 px-8 md:px-32 bg-slate-50/50">
         <div class="container mx-auto">
             <!-- Top Heading Section -->
-            <div class="mb-16 animate-up">
-                <h2 class="text-4xl md:text-5xl font-black text-slate-900 tracking-tight">EXPERIENCE</h2>
+            <div class="max-w-4xl mb-12 animate-up">
+                <span class="section-label">Timeline</span>
+                <h2 class="section-heading mb-6">Professional Journey.</h2>
+                <p class="text-slate-500 leading-relaxed text-lg">
+                    A decade-plus journey through leading tech giants and innovative startups, shaping the future of digital products.
+                </p>
             </div>
 
-            <!-- Horizontal Timeline -->
-            <div class="relative">
-                <!-- Timeline Line -->
-                <div class="hidden lg:block absolute top-[4.5rem] left-0 right-0 h-[2px] bg-indigo-200 z-0"></div>
-
-                <!-- Experience Grid -->
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-6">
+            <!-- Bottom Content Section (Full width timeline) -->
+            <div class="max-w-5xl">
+                <div class="relative">
                     <!-- Baidu -->
-                    <div class="animate-up relative">
-                        <span class="text-[11px] font-semibold text-slate-900 tracking-wide block mb-4">Jul 2020 — Oct 2025</span>
-                        <div class="hidden lg:block absolute top-[2.5rem] left-0 w-4 h-4 rounded-full bg-white border-[3px] border-indigo-400 z-10"></div>
-                        <h4 class="text-xl font-bold text-slate-900 mb-1">Baidu</h4>
-                        <p class="text-slate-500 text-sm mb-4">Senior UI Designer</p>
-                        <ul class="space-y-3 text-slate-600 text-[13px] leading-relaxed">
-                            <li class="flex items-start gap-2">
-                                <span class="text-slate-900 mt-1.5">•</span>
-                                <span>Led visual design across Baidu App, AI Publisher, DuCut, and Yinci products, supporting large-scale consumer experiences with millions of users across content creation and distribution scenarios.</span>
-                            </li>
-                            <li class="flex items-start gap-2">
-                                <span class="text-slate-900 mt-1.5">•</span>
-                                <span>Designed and evolved AI-driven content creation workflows and scalable design systems, improving usability, efficiency, and supporting fast iteration across multiple teams.</span>
-                            </li>
-                            <li class="flex items-start gap-2">
-                                <span class="text-slate-900 mt-1.5">•</span>
-                                <span>Collaborated closely with product, engineering, and operations partners to deliver high-quality, user-centered design in an agile environment.</span>
-                            </li>
+                    <div class="experience-item animate-up" style="margin-bottom: 2.5rem;">
+                        <div class="exp-dot absolute left-0 top-2"></div>
+                        <div class="exp-line absolute left-0" style="left: 5px;"></div>
+                        <span class="text-[10px] font-black text-indigo-500 uppercase tracking-widest block mb-1">Jul 2020 — Oct 2025</span>
+                        <h4 class="text-2xl font-bold text-slate-900 mb-1">Baidu</h4>
+                        <p class="text-slate-400 font-black mb-4 uppercase text-[9px] tracking-[0.2em]">Senior UI Designer</p>
+                        <ul class="experience-list">
+                            <li>Led visual design across Baidu App, AI Publisher, DuCut, and Yinci products, supporting large-scale consumer experiences with millions of users across content creation and distribution scenarios.</li>
+                            <li>Designed and evolved AI-driven content creation workflows and scalable design systems, improving usability, efficiency, and supporting fast iteration across multiple teams.</li>
+                            <li>Collaborated closely with product, engineering, and operations partners to deliver high-quality, user-centered design in an agile environment.</li>
                         </ul>
                     </div>
 
                     <!-- Xiaojiang -->
-                    <div class="animate-up relative" style="animation-delay: 0.1s;">
-                        <span class="text-[11px] font-semibold text-slate-900 tracking-wide block mb-4">Nov 2018 — Jul 2020</span>
-                        <div class="hidden lg:block absolute top-[2.5rem] left-0 w-4 h-4 rounded-full bg-white border-[3px] border-indigo-400 z-10"></div>
-                        <h4 class="text-xl font-bold text-slate-900 mb-1">Xiaojiang</h4>
-                        <p class="text-slate-500 text-sm mb-4">Senior UI Designer</p>
-                        <ul class="space-y-3 text-slate-600 text-[13px] leading-relaxed">
-                            <li class="flex items-start gap-2">
-                                <span class="text-slate-900 mt-1.5">•</span>
-                                <span>As the primary UI designer for Weibo&#39;s short-video app, I led end-to-end UI design for social features, from early concepts and wireframes to polished UI and post-launch iteration.</span>
-                            </li>
-                            <li class="flex items-start gap-2">
-                                <span class="text-slate-900 mt-1.5">•</span>
-                                <span>Supported product growth by creating compelling visual campaigns (posters, leaderboards) for community incentives, working closely with the Marketing team.</span>
-                            </li>
-                            <li class="flex items-start gap-2">
-                                <span class="text-slate-900 mt-1.5">•</span>
-                                <span>Translated business goals (retention, activation) into user-centered features and saw them through from wireframes to polished UI and post-launch iteration.</span>
-                            </li>
+                    <div class="experience-item animate-up" style="margin-bottom: 2.5rem;">
+                        <div class="exp-dot absolute left-0 top-2"></div>
+                        <div class="exp-line absolute left-0" style="left: 5px;"></div>
+                        <span class="text-[10px] font-black text-indigo-500 uppercase tracking-widest block mb-1">Nov 2018 — Jul 2020</span>
+                        <h4 class="text-2xl font-bold text-slate-900 mb-1">Xiaojiang</h4>
+                        <p class="text-slate-400 font-black mb-4 uppercase text-[9px] tracking-[0.2em]">Senior UI Designer</p>
+                        <ul class="experience-list">
+                            <li>As the primary UI designer for Weibo's short-video app, I led end-to-end UI design for social features, from early concepts and wireframes to polished UI and post-launch iteration.</li>
+                            <li>Supported product growth by creating compelling visual campaigns (posters, leaderboards) for community incentives, working closely with the Marketing team.</li>
+                            <li>Translated business goals (retention, activation) into user-centered features and saw them through from wireframes to polished UI and post-launch iteration.</li>
                         </ul>
                     </div>
 
                     <!-- LeEco -->
-                    <div class="animate-up relative" style="animation-delay: 0.2s;">
-                        <span class="text-[11px] font-semibold text-slate-900 tracking-wide block mb-4">Oct 2014 — Nov 2018</span>
-                        <div class="hidden lg:block absolute top-[2.5rem] left-0 w-4 h-4 rounded-full bg-white border-[3px] border-indigo-400 z-10"></div>
-                        <h4 class="text-xl font-bold text-slate-900 mb-1">LeEco</h4>
-                        <p class="text-slate-500 text-sm mb-4">Senior UI Designer</p>
-                        <ul class="space-y-3 text-slate-600 text-[13px] leading-relaxed">
-                            <li class="flex items-start gap-2">
-                                <span class="text-slate-900 mt-1.5">•</span>
-                                <span>Led UI design for LeEco Video App during its growth phase, designing core user flows (homepage, content details, player), serving a peak of over 13 million DAU.</span>
-                            </li>
-                            <li class="flex items-start gap-2">
-                                <span class="text-slate-900 mt-1.5">•</span>
-                                <span>Drove design tool modernization by transitioning the team from Photoshop to Sketch and establishing a shared component library, boosting consistency and workflow efficiency.</span>
-                            </li>
-                            <li class="flex items-start gap-2">
-                                <span class="text-slate-900 mt-1.5">•</span>
-                                <span>Contributed to global product adaptation by collaborating with the U.S. team on the &#39;Le&#39; app, including on-site design sprints.</span>
-                            </li>
+                    <div class="experience-item animate-up" style="margin-bottom: 2.5rem;">
+                        <div class="exp-dot absolute left-0 top-2"></div>
+                        <div class="exp-line absolute left-0" style="left: 5px;"></div>
+                        <span class="text-[10px] font-black text-indigo-500 uppercase tracking-widest block mb-1">Oct 2014 — Nov 2018</span>
+                        <h4 class="text-2xl font-bold text-slate-900 mb-1">LeEco</h4>
+                        <p class="text-slate-400 font-black mb-4 uppercase text-[9px] tracking-[0.2em]">Senior UI Designer</p>
+                        <ul class="experience-list">
+                            <li>Led UI design for LeEco Video App during its growth phase, designing core user flows (homepage, content details, player), serving a peak of over 13 million DAU.</li>
+                            <li>Drove design tool modernization by transitioning the team from Photoshop to Sketch and establishing a shared component library, boosting consistency and workflow efficiency.</li>
+                            <li>Contributed to global product adaptation by collaborating with the U.S. team on the 'Le' app, including on-site design sprints.</li>
                         </ul>
                     </div>
 
                     <!-- Yitianxindong -->
-                    <div class="animate-up relative" style="animation-delay: 0.3s;">
-                        <span class="text-[11px] font-semibold text-slate-900 tracking-wide block mb-4">Oct 2011 — Oct 2014</span>
-                        <div class="hidden lg:block absolute top-[2.5rem] left-0 w-4 h-4 rounded-full bg-white border-[3px] border-indigo-400 z-10"></div>
-                        <h4 class="text-xl font-bold text-slate-900 mb-1">Yitianxindong</h4>
-                        <p class="text-slate-500 text-sm mb-4">UI designer</p>
-                        <ul class="space-y-3 text-slate-600 text-[13px] leading-relaxed">
-                            <li class="flex items-start gap-2">
-                                <span class="text-slate-900 mt-1.5">•</span>
-                                <span>Successfully transitioned my career from Graphic Designer—creating e-book covers and marketing banners—to owning the end-to-end UI/UX design for the TaDu Literature App, with a focus on optimizing the core reading experience for users.</span>
-                            </li>
-                            <li class="flex items-start gap-2">
-                                <span class="text-slate-900 mt-1.5">•</span>
-                                <span>Pioneered UI/UX design for new exploratory products, taking full ownership of the design process from initial concept and user interaction design to final motion animation.</span>
-                            </li>
-                            <li class="flex items-start gap-2">
-                                <span class="text-slate-900 mt-1.5">•</span>
-                                <span>Delivered two company-adopted logos, translating brand strategy into visual identity.</span>
-                            </li>
+                    <div class="experience-item animate-up" style="margin-bottom: 2.5rem;">
+                        <div class="exp-dot absolute left-0 top-2"></div>
+                        <div class="exp-line absolute left-0" style="left: 5px;"></div>
+                        <span class="text-[10px] font-black text-indigo-500 uppercase tracking-widest block mb-1">Oct 2011 — Oct 2014</span>
+                        <h4 class="text-2xl font-bold text-slate-900 mb-1">Yitianxindong</h4>
+                        <p class="text-slate-400 font-black mb-4 uppercase text-[9px] tracking-[0.2em]">UI designer</p>
+                        <ul class="experience-list">
+                            <li>Successfully transitioned my career from Graphic Designer—creating e-book covers and marketing banners—to owning the end-to-end UI/UX design for the TaDu Literature App, with a focus on optimizing the core reading experience for users.</li>
+                            <li>Pioneered UI/UX design for new exploratory products, taking full ownership of the design process from initial concept and user interaction design to final motion animation.</li>
+                            <li>Delivered two company-adopted logos, translating brand strategy into visual identity.</li>
                         </ul>
                     </div>
 
                     <!-- Vancl -->
-                    <div class="animate-up relative" style="animation-delay: 0.4s;">
-                        <span class="text-[11px] font-semibold text-slate-900 tracking-wide block mb-4">Jul 2010 — Sep 2011</span>
-                        <div class="hidden lg:block absolute top-[2.5rem] left-0 w-4 h-4 rounded-full bg-white border-[3px] border-indigo-400 z-10"></div>
-                        <h4 class="text-xl font-bold text-slate-900 mb-1">Vancl</h4>
-                        <p class="text-slate-500 text-sm mb-4">Graphic designer</p>
-                        <ul class="space-y-3 text-slate-600 text-[13px] leading-relaxed">
-                            <li class="flex items-start gap-2">
-                                <span class="text-slate-900 mt-1.5">•</span>
-                                <span>Selected directly by the Product Design Manager from a graduate exhibition to join a compact product line team.</span>
-                            </li>
-                            <li class="flex items-start gap-2">
-                                <span class="text-slate-900 mt-1.5">•</span>
-                                <span>Executed graphic and product design for categories including accessories, hats, and T-shirts, supporting e-commerce campaigns and physical product development.</span>
-                            </li>
-                            <li class="flex items-start gap-2">
-                                <span class="text-slate-900 mt-1.5">•</span>
-                                <span>Gained foundational experience in project coordination by collaborating with third-party designers on product selection and execution.</span>
-                            </li>
+                    <div class="experience-item animate-up" style="margin-bottom: 0;">
+                        <div class="exp-dot absolute left-0 top-2"></div>
+                        <span class="text-[10px] font-black text-indigo-500 uppercase tracking-widest block mb-1">Jul 2010 — Sep 2011</span>
+                        <h4 class="text-2xl font-bold text-slate-900 mb-1">Vancl</h4>
+                        <p class="text-slate-400 font-black mb-4 uppercase text-[9px] tracking-[0.2em]">Graphic designer</p>
+                        <ul class="experience-list">
+                            <li>Selected directly by the Product Design Manager from a graduate exhibition to join a compact product line team.</li>
+                            <li>Executed graphic and product design for categories including accessories, hats, and T-shirts, supporting e-commerce campaigns and physical product development.</li>
+                            <li>Gained foundational experience in project coordination by collaborating with third-party designers on product selection and execution.</li>
                         </ul>
                     </div>
                 </div>
@@ -416,16 +441,16 @@
     </div>
 
     <!-- Footer -->
-    <footer id="contact" class="bg-slate-950 py-32 px-6 md:px-32 text-white md:rounded-t-[6rem] text-center">
+    <footer id="contact" class="bg-slate-950 py-20 md:py-24 px-8 md:px-32 text-white md:rounded-t-[6rem] text-center">
         <span class="section-label text-indigo-300 opacity-60 mb-8">Contact</span>
-        <h3 class="section-heading !text-white !text-5xl md:!text-8xl mb-16 serif italic opacity-90">Let&#39;s connect.</h3>
-        <p class="text-2xl font-light mb-4"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a6cacfc7c9cad3c7c8c0c3cfe6c1cbc7cfca88c5c9cb">[email&#160;protected]</a></p>
-        <div class="pt-32 opacity-30 text-[10px] tracking-[0.6em] uppercase">© 2025 LUANFEI LIAO</div>
+        <h3 class="section-heading !text-white !text-5xl md:!text-8xl mb-16 serif italic opacity-90">Let's connect.</h3>
+        <p class="text-2xl font-light mb-4">liaoluanfei@gmail.com</p>
+        <div class="pt-32 opacity-30 text-[10px] tracking-[0.6em] uppercase">&copy; 2025 LUANFEI LIAO</div>
     </footer>
 
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    <script>
         const projectData = {
-            baidu_ai: {
+            project1: {
                 title: "Baidu App - AI Publisher",
                 category: "AI & Productivity",
                 overview: {
@@ -436,34 +461,640 @@
                 },
                 sections: [
                     {
-                        label: "01 / Creative Flow",
+                        label: "01 / CREATIVE FLOW",
                         heading: "Empowering 100M+ Creators.",
                         description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
-                        image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1600"
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
                     },
                     {
-                        label: "02 / Design System",
-                        heading: "The Future of Multimodal.",
-                        description: "A custom dynamic visual system for AI features, including fluid gradients and breathing interaction effects.",
-                        image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=1600"
+                        label: "02 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "03 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "04 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "05 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "06 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "07 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "08 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "09 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "10 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "11 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "12 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "13 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "14 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "15 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "16 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "17 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "18 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "19 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "20 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "21 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "22 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "23 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "24 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "25 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
                     }
                 ]
             },
-            yinci: {
-                title: "Yinci — AI Rap Community",
-                category: "Gen Z Community",
+            project2: {
+                title: "Baidu App - AI Publisher",
+                category: "AI & Productivity",
                 overview: {
-                    background: "An AI-driven rap community for Gen Z, combining music creation with deep social integration.",
-                    challenges: "How to maintain a 'hardcore' street vibe while providing minimalist tool experiences?",
-                    strategy: "Adopted 'Electro-Magnetic' visual language with high-saturation colors and glitch art.",
-                    role: "Led the visual system establishment and end-to-end UI design."
+                    background: "Baidu App is China's largest search platform. We redesigned the publishing tool, aiming to lower content production barriers through AI technology.",
+                    challenges: "How to make complex AI features simple and intuitive on mobile?",
+                    strategy: "Introduced Conversational UI (CUI) to integrate AI capabilities into natural language flows.",
+                    role: "Independently responsible for UI design and core interaction innovation."
                 },
                 sections: [
                     {
-                        label: "01 / Visual Identity",
-                        heading: "Electro-Magnetic Vibes.",
-                        description: "Breaking traditional music app layouts, using large color blocks and dynamic grids to convey rhythm.",
-                        image: "https://images.unsplash.com/photo-1514525253361-bee8718a34a1?w=1600"
+                        label: "01 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "02 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "03 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "04 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "05 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "06 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "07 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "08 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "09 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "10 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "11 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "12 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "13 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "14 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "15 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "16 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "17 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "18 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "19 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "20 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "21 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "22 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "23 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "24 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "25 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    }
+                ]
+            },
+            project3: {
+                title: "Baidu App - AI Publisher",
+                category: "AI & Productivity",
+                overview: {
+                    background: "Baidu App is China's largest search platform. We redesigned the publishing tool, aiming to lower content production barriers through AI technology.",
+                    challenges: "How to make complex AI features simple and intuitive on mobile?",
+                    strategy: "Introduced Conversational UI (CUI) to integrate AI capabilities into natural language flows.",
+                    role: "Independently responsible for UI design and core interaction innovation."
+                },
+                sections: [
+                    {
+                        label: "01 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "02 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "03 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "04 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "05 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "06 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "07 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "08 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "09 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "10 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "11 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "12 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "13 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "14 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "15 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "16 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "17 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "18 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "19 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "20 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "21 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "22 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "23 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "24 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "25 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    }
+                ]
+            },
+            project4: {
+                title: "Baidu App - AI Publisher",
+                category: "AI & Productivity",
+                overview: {
+                    background: "Baidu App is China's largest search platform. We redesigned the publishing tool, aiming to lower content production barriers through AI technology.",
+                    challenges: "How to make complex AI features simple and intuitive on mobile?",
+                    strategy: "Introduced Conversational UI (CUI) to integrate AI capabilities into natural language flows.",
+                    role: "Independently responsible for UI design and core interaction innovation."
+                },
+                sections: [
+                    {
+                        label: "01 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "02 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "03 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "04 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "05 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "06 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "07 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "08 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "09 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "10 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "11 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "12 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "13 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "14 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "15 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "16 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "17 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "18 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "19 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "20 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "21 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "22 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "23 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "24 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
+                    },
+                    {
+                        label: "25 / CREATIVE FLOW",
+                        heading: "Empowering 100M+ Creators.",
+                        description: "We reimagined the creation process. Users enter an idea, and AI generates outlines, searches for images, and optimizes copy.",
+                        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600"
                     }
                 ]
             }
@@ -546,5 +1177,5 @@
             observer.observe(el);
         });
     </script>
-
-</body></html>
+</body>
+</html>
