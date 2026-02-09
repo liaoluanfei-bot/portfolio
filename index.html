@@ -715,6 +715,11 @@
             const data = projectData[id];
             const overlay = document.getElementById('project-detail');
             const content = document.getElementById('detail-content');
+
+            // Reset scroll position for every project open (fix: prevent carry-over between projects)
+            // Use instant scroll to avoid smooth-scroll jumping.
+            overlay.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+
             
 
             
@@ -769,10 +774,15 @@
 
         function closeProject() {
             const overlay = document.getElementById('project-detail');
+
+            // Reset immediately to avoid scroll carry-over if user reopens quickly
+            overlay.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+
             overlay.classList.remove('active');
             document.body.classList.remove('no-scroll');
             setTimeout(() => { 
                 overlay.style.display = 'none'; 
+                // Keep this as a fallback in case some browsers ignore scrollTo on hidden elements
                 overlay.scrollTop = 0;
             }, 600);
         }
