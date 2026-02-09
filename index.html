@@ -213,7 +213,7 @@
             <div class="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-pink-300/20 rounded-full blur-[100px]"></div>
             <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-indigo-200/20 rounded-full blur-[150px]"></div>
         </div>
-        <div class="container mx-auto relative z-10">
+        <div class="container mx-auto max-w-[1280px] relative z-10">
             <!-- 第一行：名字和头像并排（上下居中） -->
             <div class="grid grid-cols-1 lg:grid-cols-12 items-center gap-8 lg:gap-16 mb-12">
                 <div class="lg:col-span-7 animate-up">
@@ -715,11 +715,6 @@
             const data = projectData[id];
             const overlay = document.getElementById('project-detail');
             const content = document.getElementById('detail-content');
-
-            // Reset scroll position for every project open (fix: prevent carry-over between projects)
-            // Use instant scroll to avoid smooth-scroll jumping.
-            overlay.scrollTo({ top: 0, left: 0, behavior: 'auto' });
-
             
 
             
@@ -774,16 +769,12 @@
 
         function closeProject() {
             const overlay = document.getElementById('project-detail');
-
-            // Reset immediately to avoid scroll carry-over if user reopens quickly
-            overlay.scrollTo({ top: 0, left: 0, behavior: 'auto' });
-
+            // 立即归零滚动（防止用户快速重复打开）
+            overlay.scrollTo({top: 0, behavior: 'auto'});
             overlay.classList.remove('active');
             document.body.classList.remove('no-scroll');
             setTimeout(() => { 
                 overlay.style.display = 'none'; 
-                // Keep this as a fallback in case some browsers ignore scrollTo on hidden elements
-                overlay.scrollTop = 0;
             }, 600);
         }
 
